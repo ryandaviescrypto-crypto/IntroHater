@@ -1,5 +1,8 @@
 FROM node:20-slim
 
+ENV MONGODB_URI=mongodb+srv://ryandaviescrypto_db_user:Scania143@cluster0.i7irgtc.mongodb.net/?appName=Cluster0
+
+
 # Install FFmpeg
 RUN apt-get update && \
     apt-get install -y ffmpeg && \
